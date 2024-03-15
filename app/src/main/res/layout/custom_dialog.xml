@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/vip"
+        />
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:translationZ="8dp"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_below="@id/imageView"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"
+        android:text="NOTE: MINIMUM SUBSCRIPTION PLAN IS $50.\nTICKETS WINNING RATE IS 100%, DON'T MISS THIS GREAT OPPORTUNITY TO MAKE REAL CASH FROM OUR FIXED MATCHES. CONTACT ADMIN ON WHATSAPP AND WIN BIG!!"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textColor="@color/gradgreen"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textview"
+        android:layout_marginTop="16dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/okay_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp"
+            android:text="Accept"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:background="@drawable/bg_rounded_stroke_red" />
+
+        <Button
+            android:id="@+id/cancel_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp"
+            android:text="Cancel"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:background="@drawable/bg_rounded_stroke_red" />
+    </LinearLayout>
+
+</RelativeLayout>

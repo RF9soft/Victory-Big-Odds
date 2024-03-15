@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg3"
+    tools:context=".ContactUSActivty">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/header_title"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/nunitosans_bold"
+            android:maxLines="2"
+            android:text="Contact Us For Any kind of help We are here to help you "
+            android:textColor="@color/gradblue"
+            android:textSize="18sp">
+
+        </androidx.appcompat.widget.AppCompatTextView>
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/header_title"
+            android:layout_margin="4dp"
+            android:background="#3D4240" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/header_title"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:drawableLeft="@drawable/ic_baseline_mark_email_unread_24"
+            android:drawablePadding="8dp"
+            android:fontFamily="@font/nunitosans_bold"
+            android:text="Send Feedback"
+            android:textColor="@color/gradblue"
+            android:textSize="18sp">
+
+        </androidx.appcompat.widget.AppCompatTextView>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/two"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:drawableLeft="@drawable/ic_baseline_subject_24"
+            android:drawablePadding="8dp"
+            android:fontFamily="@font/nunitosans_bold"
+            android:text="join telegram"
+            android:textColor="@color/color1"
+            android:textSize="18sp">
+
+        </androidx.appcompat.widget.AppCompatTextView>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:text="Back"
+            android:id="@+id/backID"
+            android:textColor="@color/white"
+            android:layout_marginEnd="40dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/three"
+            android:background="@color/teal_200"
+
+            android:layout_height="wrap_content">
+
+        </androidx.appcompat.widget.AppCompatButton>
+    </RelativeLayout>
+</RelativeLayout>

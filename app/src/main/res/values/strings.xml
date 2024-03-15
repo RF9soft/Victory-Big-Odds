@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Victory Big Odds</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="text_button_calculate">Calculate</string>
+    <string name="text_button_exit">Exit</string>
+    <string name="default_show_result"> </string>
+    <string name="email">erakza.de.rock@gmail.com</string>
+    <string name="access_all_vip">Buy all vip</string>
+    <string name="unlocked_all_vip">Unlocked All Vip</string>
+    <string name="notification_channel_id_message">victory-channel</string>
+    <string name="message">Here is all the information and details you need to know about our application \nand the source of our fixed manipulated matches.
+</string>
+    <string name="message2">Our Team of Expertz and Fixed matches information are from ENGLAND.\n
+        We Are Top-Class And Experienced Experts In The World Of Match-Fixing And Are Fully Dedicated
+        To Providing Solid And Superior Fixed Odd Info For Our Buyers And Client, And that Gives \nYou A Guaranteed Profit Which Is Always The Joy of Every Investor To Get Desired Profits After\nan Investment in Fixed Soccer Matches betting!
+        We See sports Betting as an Investment rather than Gambling
+</string>
+
+    <string name="tips2">Note: 1.To access the VIP TIPS contact the ADMIN on Telegram or Email US now\n\n 2. If ADMIN gives you the VIP room user and password, then login to the room here\n 3. Our team of Experts fixed matches information are from ENGLAND. We Are Top-class And Experienced Experts In The World Of Match-Fixing And Are Fully Dedicated To Providing Solid And Superior Fixed Odd Info For Our Buyers And Client,\n\n And That Gives You A Guaranteed Profit Which Is Always The Joy of Every Investor After Investment In Fixed Soccer\n Matches WE SEE SPORT BETTING AS AN INVESTMENT RATHER THAN GAMBLING.</string>
+    <string name="tip">IF YOU\'RE HAVING DIFFICULTY IN MAKING PAYMENTS,\n Contact US victorybettingtipz@gmail.com\n or Telegram</string>
+    <string name="admob_banner_one">ca-app-pub-3556407558320818/9448094467</string>
+    <string name="admob_interstial">ca-app-pub-3556407558320818/7295083151</string>
+    <string name="ad_unit_id_native">ca-app-pub-3556407558320818/8480759046</string>
+    <string name="apl_banner">200a66c0ed2d06d9</string>
+    <string name="apl_interital">7879d724612620db</string>
+    <string name="apl_mrec">267b9b9fdc9cbc4a</string>
+
+    <string name="applovin_sdkkey">epDlH8QaoKJ2Li1cRkJ5VzfIpq3cDNwXqoJJg2hyZLkwAoU329LIhcpOuxdlqZxCt2Mta6KFPE5sProdeQz9lT</string>
+    <string name="apl_reward">d6df71610ca2b0f3</string>
+    <string name="apl_nativesmall">fca9dce19d42a952</string>
+    <string name="apl_appopn">b2e99e1e55337780</string>
+
+</resources>

@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "500280553490",
+    "firebase_url": "https://victory-big-odds-default-rtdb.firebaseio.com",
+    "project_id": "victory-big-odds",
+    "storage_bucket": "victory-big-odds.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:500280553490:android:ec8f14bf183d495b6be8cb",
+        "android_client_info": {
+          "package_name": "com.big.oddsnig"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "500280553490-vn2igcsoj3gqmrh0u8c088diag1f3ki0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2oyiGDnJcsh3UTtKUpZpctT25rgydP0k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "500280553490-vn2igcsoj3gqmrh0u8c088diag1f3ki0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:500280553490:android:b9a1fc5f7330a97a6be8cb",
+        "android_client_info": {
+          "package_name": "com.vic.bidds"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "500280553490-vn2igcsoj3gqmrh0u8c088diag1f3ki0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2oyiGDnJcsh3UTtKUpZpctT25rgydP0k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "500280553490-vn2igcsoj3gqmrh0u8c088diag1f3ki0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
