@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <ImageView
+        android:id="@+id/close_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back"
+        android:layout_gravity="end"
+        android:contentDescription="@string/close_icon"/>
+
+    <RadioGroup
+        android:id="@+id/country_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/european_countries_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="European Countries"
+            android:layout_marginBottom="8dp"
+            android:textAllCaps="false"
+            android:background="@android:color/white"
+            android:textColor="@color/black"/>
+
+        <RadioButton
+            android:id="@+id/asian_countries_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Asian Countries"
+            android:layout_marginBottom="8dp"
+            android:textAllCaps="false"
+            android:background="@android:color/white"
+            android:textColor="@color/black"/>
+
+        <RadioButton
+            android:id="@+id/usa_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="United States Of America"
+            android:layout_marginBottom="8dp"
+            android:textAllCaps="false"
+            android:background="@android:color/white"
+            android:textColor="@color/black"/>
+
+        <RadioButton
+            android:id="@+id/north_south_america_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="North / South America"
+            android:layout_marginBottom="8dp"
+            android:textAllCaps="false"
+            android:background="@android:color/white"
+            android:textColor="@color/black"/>
+
+        <RadioButton
+            android:id="@+id/south_africa_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="South Africa"
+            android:layout_marginBottom="8dp"
+            android:textAllCaps="false"
+            android:background="@android:color/white"
+            android:textColor="@color/black"/>
+
+        <RadioButton
+            android:id="@+id/nigeria_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nigeria"
+            android:layout_marginBottom="8dp"
+            android:textAllCaps="false"
+            android:background="@android:color/white"
+            android:textColor="@color/black"/>
+
+        <RadioButton
+            android:id="@+id/ghana_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ghana"
+            android:layout_marginBottom="8dp"
+            android:textAllCaps="false"
+            android:background="@android:color/white"
+            android:textColor="@color/black"/>
+
+        <RadioButton
+            android:id="@+id/kenya_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kenya"
+            android:layout_marginBottom="8dp"
+            android:textAllCaps="false"
+            android:background="@android:color/white"
+            android:textColor="@color/black"/>
+
+        <RadioButton
+            android:id="@+id/uganda_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Uganda"
+            android:layout_marginBottom="8dp"
+            android:textAllCaps="false"
+            android:background="@android:color/white"
+            android:textColor="@color/black"/>
+
+        <RadioButton
+            android:id="@+id/zambia_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Zambia"
+            android:layout_marginBottom="8dp"
+            android:textAllCaps="false"
+            android:background="@android:color/white"
+            android:textColor="@color/black"/>
+
+        <RadioButton
+            android:id="@+id/tanzanian_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tanzanian"
+            android:layout_marginBottom="8dp"
+            android:textAllCaps="false"
+            android:background="@android:color/white"
+            android:textColor="@color/black"/>
+
+        <RadioButton
+            android:id="@+id/other_african_countries_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Other African Countries"
+            android:layout_marginBottom="8dp"
+            android:textAllCaps="false"
+            android:background="@android:color/white"
+            android:textColor="@color/black"/>
+
+    </RadioGroup>
+
+</LinearLayout>

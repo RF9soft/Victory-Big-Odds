@@ -1,0 +1,23 @@
+<!-- asian_countries_popup.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <CheckBox
+        android:id="@+id/crypto_currency_checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Crypto Currency"
+        android:textColor="@color/black"/>
+
+    <CheckBox
+        android:id="@+id/local_cb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Local Bank Payment"
+        android:textColor="@color/black"/>
+
+</LinearLayout>

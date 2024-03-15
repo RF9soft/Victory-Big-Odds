@@ -1,0 +1,63 @@
+<!-- asian_countries_popup.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <CheckBox
+        android:id="@+id/crypto_currency_checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Crypto Currency"
+        android:textColor="@color/black"/>
+
+    <CheckBox
+        android:id="@+id/skrill_checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Skrill"
+        android:textColor="@color/black"/>
+
+    <CheckBox
+        android:id="@+id/paypal_checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PayPal"
+        android:textColor="@color/black"/>
+
+    <CheckBox
+        android:id="@+id/neteller_checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Neteller"
+        android:textColor="@color/black"/>
+
+    <CheckBox
+        android:id="@+id/airtm_checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Airtm"
+        android:textColor="@color/black"/>
+
+    <CheckBox
+        android:id="@+id/moey_gram_cb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MoneyGram"
+        android:textColor="@color/black"/>
+    <CheckBox
+        android:id="@+id/western_cb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Western Union"
+        android:textColor="@color/black"/>
+
+    <CheckBox
+        android:id="@+id/mukuru_cb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mukuru"
+        android:textColor="@color/black"/>
+</LinearLayout>

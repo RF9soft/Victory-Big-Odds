@@ -1,0 +1,67 @@
+<!-- asian_countries_popup.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+
+    <CheckBox
+        android:id="@+id/mpessa_cb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mpessa"
+        android:textColor="@color/black"/>
+
+    <CheckBox
+        android:id="@+id/airtel_cb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Airtel"
+        android:textColor="@color/black"/>
+
+    <CheckBox
+        android:id="@+id/paypal_cb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PayPal"
+        android:textColor="@color/black"/>
+
+    <CheckBox
+        android:id="@+id/usdt_cb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="USDT"
+        android:textColor="@color/black"/>
+
+    <CheckBox
+        android:id="@+id/airtm_cb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Airtm"
+        android:textColor="@color/black"/>
+
+    <CheckBox
+        android:id="@+id/skrill_cb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Skrill"
+        android:textColor="@color/black"/>
+
+    <CheckBox
+        android:id="@+id/neteller_cb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Neteller"
+        android:textColor="@color/black"/>
+
+    <CheckBox
+        android:id="@+id/perfect_money_cb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Perfect Money"
+        android:textColor="@color/black"/>
+
+</LinearLayout>
